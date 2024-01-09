@@ -1,0 +1,58 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.7)
+
+2024-01-08T18:30:43.178Z  INFO 1760 --- [           main] com.qiang.sofr.terms.TermsApplication    : Starting TermsApplication v0.0.1-SNAPSHOT using Java 17.0.9 with PID 1760 (/home/ubuntu/terms/terms-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu/terms)
+2024-01-08T18:30:43.187Z  INFO 1760 --- [           main] com.qiang.sofr.terms.TermsApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T18:30:45.777Z  INFO 1760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2024-01-08T18:30:45.797Z  INFO 1760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-08T18:30:45.797Z  INFO 1760 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-08T18:30:46.075Z  INFO 1760 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-08T18:30:46.080Z  INFO 1760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2747 ms
+2024-01-08T18:30:47.491Z  WARN 1760 --- [           main] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][main] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2024-01-08T18:30:47.654Z  INFO 1760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2024-01-08T18:30:47.695Z  INFO 1760 --- [           main] com.qiang.sofr.terms.TermsApplication    : Started TermsApplication in 5.586 seconds (process running for 6.744)
+2024-01-08T18:30:52.347Z  INFO 1760 --- [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08T18:30:52.351Z  INFO 1760 --- [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-08T18:30:52.356Z  INFO 1760 --- [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-01-08T18:32:25.550Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-19 skip because bankClosed skip
+2024-01-08T18:32:25.550Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-20 skip because non-working day 
+2024-01-08T18:32:25.551Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-21 skip because non-working day 
+2024-01-08T18:32:25.563Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-22 skip because bankClosed skip
+2024-01-08T18:32:25.643Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-27 skip because non-working day 
+2024-01-08T18:32:25.643Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-04-28 skip because non-working day 
+2024-01-08T18:32:25.723Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-05-04 skip because non-working day 
+2024-01-08T18:32:25.723Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-05-05 skip because non-working day 
+2024-01-08T18:32:25.723Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-05-06 skip because bankClosed skip
+2024-01-08T18:32:25.780Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-05-11 skip because non-working day 
+2024-01-08T18:32:25.780Z  INFO 1760 --- [p-nio-80-exec-8] c.qiang.sofr.terms.service.CalcService   : day 2019-05-12 skip because non-working day 
+2024-01-08T18:32:25.923Z  INFO 1760 --- [p-nio-80-exec-8] c.q.sofr.terms.controller.ApiController  : ApiController.calc#cost=481
+2024-01-08T18:32:39.706Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-19 skip because bankClosed skip
+2024-01-08T18:32:39.706Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-20 skip because non-working day 
+2024-01-08T18:32:39.706Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-21 skip because non-working day 
+2024-01-08T18:32:39.708Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-22 skip because bankClosed skip
+2024-01-08T18:32:39.758Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-27 skip because non-working day 
+2024-01-08T18:32:39.758Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-04-28 skip because non-working day 
+2024-01-08T18:32:39.806Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-05-04 skip because non-working day 
+2024-01-08T18:32:39.807Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-05-05 skip because non-working day 
+2024-01-08T18:32:39.807Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-05-06 skip because bankClosed skip
+2024-01-08T18:32:39.851Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-05-11 skip because non-working day 
+2024-01-08T18:32:39.851Z  INFO 1760 --- [-nio-80-exec-10] c.qiang.sofr.terms.service.CalcService   : day 2019-05-12 skip because non-working day 
+2024-01-08T18:32:39.928Z  INFO 1760 --- [-nio-80-exec-10] c.q.sofr.terms.controller.ApiController  : ApiController.calc#cost=276
+2024-01-08T18:33:21.894Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-19 skip because bankClosed skip
+2024-01-08T18:33:21.894Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-20 skip because non-working day 
+2024-01-08T18:33:21.894Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-21 skip because non-working day 
+2024-01-08T18:33:21.895Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-22 skip because bankClosed skip
+2024-01-08T18:33:21.925Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-27 skip because non-working day 
+2024-01-08T18:33:21.928Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-04-28 skip because non-working day 
+2024-01-08T18:33:21.960Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-05-04 skip because non-working day 
+2024-01-08T18:33:21.964Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-05-05 skip because non-working day 
+2024-01-08T18:33:21.965Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-05-06 skip because bankClosed skip
+2024-01-08T18:33:21.992Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-05-11 skip because non-working day 
+2024-01-08T18:33:21.996Z  INFO 1760 --- [p-nio-80-exec-3] c.qiang.sofr.terms.service.CalcService   : day 2019-05-12 skip because non-working day 
+2024-01-08T18:33:22.044Z  INFO 1760 --- [p-nio-80-exec-3] c.q.sofr.terms.controller.ApiController  : ApiController.calc#cost=184
